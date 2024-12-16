@@ -77,11 +77,6 @@ Les contributions sont les bienvenues !
 - **Contact** : [mulliezjoseph5@gmail.com](mailto:mulliezjoseph5@gmail.com)
 - **Portfolio** : *(ajoutez un lien si applicable)*
 
-## Licence
-Ce projet est sous licence [MIT](LICENSE).
-
-## Remerciements
-Un grand merci à tous les contributeurs et aux passionnés de F1 qui rendent ce projet possible.
 
 ---
 
