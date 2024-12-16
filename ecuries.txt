@@ -1,0 +1,10 @@
+Red Bull Racing|Autriche|Écurie dominante des dernières saisons, avec Max Verstappen comme pilote vedette.|https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/red-bull-racing.png
+Mercedes-AMG|Allemagne|Historique écurie avec plusieurs championnats, connue pour sa performance et son innovation.|https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/mercedes.png
+Ferrari|Italie|L'une des écuries les plus emblématiques de la F1, avec une riche histoire et des pilotes talentueux.|https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/ferrari.png
+McLaren|Royaume-Uni|Écurie légendaire avec de nombreux titres, revenant en force ces dernières saisons.|https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/mclaren.png
+Alpine|France|Écurie qui a émergé récemment, avec un accent sur le développement et la performance.|https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/alpine.png
+Aston Martin|Royaume-Uni|Écurie qui a connu un renouveau, avec des ambitions de podium.|https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/aston-martin.png
+Haas|États-Unis|Écurie américaine qui cherche à se faire un nom dans le sport, avec une approche pragmatique.|https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/haas.png
+RB|Italie|Écurie sœur de Red Bull, axée sur le développement de jeunes talents.|https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/rb.png
+Williams|Royaume-Uni|Écurie avec une riche histoire, cherchant à retrouver sa gloire passée.|https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/williams.png
+Kick Sauber|Suisse|Écurie en pleine évolution, visant à améliorer ses performances avec la voiture C44. | https://media.formula1.com/d_team_car_fallback_image.png/content/dam/fom-website/teams/2024/kick-sauber.png

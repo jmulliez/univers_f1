@@ -1,0 +1,303 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/* Header with logo and title */
+header {
+    background-color: #d20000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: inline-block;
+    text-align: center;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+/* Navigation styles */
+.nav-f1 {
+    background-color: #810000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-f1 ul {
+    list-style: none;
+    display: inline-flex;
+    gap: 20px;
+}
+
+.nav-f1 li {
+    position: relative;
+}
+
+.nav-f1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for navigation links */
+.nav-f1 a:hover {
+    background-color: #f1f1f1;
+    color: #d20000;
+    transform: scale(1.1);  /* Zoom effect on hover */
+}
+
+/* Dropdown styles */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #d20000;
+    border-radius: 5px;
+    list-style: none;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* Dropdown items */
+.dropdown-content li {
+    padding: 10px;
+}
+
+.dropdown-content li a {
+    color: white;
+    text-transform: none;
+    font-size: 1.1em;
+}
+
+.dropdown-content li a:hover {
+    background-color: #f1f1f1;
+    color: #d20000;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+
+/* Style pour le tableau */
+table.table-f1 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+table.table-f1 th, table.table-f1 td {
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 1em;
+}
+
+table.table-f1 th {
+    background-color: #d20000;
+    color: white;
+    text-transform: uppercase;
+}
+
+table.table-f1 td {
+    background-color: #f9f9f9;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+table.table-f1 tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+
+table.table-f1 tr:hover td {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+/* Footer principal */
+.footer-f1 {
+    background-color: #111;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.footer-section {
+    margin: 10px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.footer-section h3 {
+    border-bottom: 2px solid #f44336;
+    display: inline-block;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    font-size: 1.2rem;
+    color: #f44336;
+    text-transform: uppercase;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+    font-size: 0.95rem;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #f44336;
+    text-decoration: underline;
+}
+
+/* Ligne de fin */
+.footer-bottom {
+    border-top: 1px solid #333;
+    padding-top: 15px;
+    font-size: 0.8rem;
+    color: #aaa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer-bottom .socials {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-bottom .socials a {
+    margin: 0 5px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.footer-bottom .socials img {
+    width: 28px;
+    height: 28px;
+    filter: brightness(0.8);
+    transition: filter 0.3s, transform 0.3s;
+}
+
+.footer-bottom .socials a:hover img {
+    filter: brightness(1);
+    transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Appliquer flexbox pour aligner les éléments */
+html, body {
+    height: 100%; /* Permet de remplir toute la hauteur de la fenêtre */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main doit occuper tout l'espace disponible */
+main {
+    flex: 1; /* Prend tout l'espace restant entre le header et le footer */
+}
+
+.footer-f1 {
+    margin-top: auto; /* Garantit que le footer reste en bas */
+}

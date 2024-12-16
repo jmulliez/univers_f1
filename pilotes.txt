@@ -1,0 +1,24 @@
+Max Verstappen | Red Bull Racing   | 437    | 2 fois champion du monde (2021, 2022)| https://img.redbull.com/images/c_crop,x_914,y_1637,h_3171,w_3171/c_fill,w_200,h_200/q_auto,f_auto/redbullcom/2022/5/5/esxtfazwc5k0xntwv20i/max-verstappen-profile-pic
+Lando Norris   | McLaren           | 374    | Aucun titre de champion du monde| https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/norris
+Charles Leclerc| Ferrari           | 356    | Aucun titre de champion du monde| https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/leclerc
+Oscar Piastri  | McLaren           | 292    | Aucun titre de champion du monde| https://media.formula1.com/image/upload/f_auto,c_limit,q_75,w_1320/content/dam/fom-website/drivers/2024Drivers/piastri
+Carlos Sainz   | Ferrari           | 290    | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png
+George Russell | Mercedes          | 245    | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png
+Lewis Hamilton | Mercedes          | 223    | 7 fois champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png
+Sergio Pérez   | Red Bull Racing   | 152    | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/S/SERPER01_Sergio_Perez/serper01.png
+Fernando Alonso| Aston Martin      | 70     | 2 fois champion du monde (2005, 2006)| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png
+Pierre Gasly   | Alpine            | 42     | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png
+Nico Hülkenberg| Haas              | 41     | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/N/NICHUL01_Nico_Hulkenberg/nichul01.png
+Yuki Tsunoda   | RB        | 30     | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png
+Lance Stroll   | Aston Martin      | 24     | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png
+Esteban Ocon   | Alpine            | 23     | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/E/ESTOCO01_Esteban_Ocon/estoco01.png
+Kevin Magnussen| Haas              | 16     | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/K/KEVMAG01_Kevin_Magnussen/kevmag01.png
+Alex Albon     | Williams          | 12     | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/A/ALEALB01_Alexander_Albon/alealb01.png
+Daniel Ricciardo| RB      | 12     | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/D/DANRIC01_Daniel_Ricciardo/danric01.png
+Bearman        | Haas              | 7      | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/O/OLIBEA01_Oliver_Bearman/olibea01.png
+Colapinto      | Williams       | 5      | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/F/FRACOL01_Franco_Colapinto/fracol01.png
+Zhou Guanyu    | Kick Sauber       | 4      | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/F/FRACOL01_Franco_Colapinto/fracol01.png
+Lawson         | RB       | 4      | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LIALAW01_Liam_Lawson/lialaw01.png
+Valtteri Bottas| Kick Sauber       | 0      | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/V/VALBOT01_Valtteri_Bottas/valbot01.png
+Logan Sargeant | Williams          | 0      | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/L/LOGSAR01_Logan_Sargeant/logsar01.png
+Jack Doohan    | Alpine            | 0      | Aucun titre de champion du monde| https://media.formula1.com/d_driver_fallback_image.png/content/dam/fom-website/drivers/J/JACDOO01_Jack_Doohan/jacdoo01.png
