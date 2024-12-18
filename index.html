@@ -53,6 +53,35 @@
 
         // Appeler la fonction lors du chargement de la page
         window.onload = getF1News;
+        async function getF1News() {
+    try {
+        const response = await fetch('https://ergast.com/api/f1/current/last/results.json'); // Exemple d'API de résultats
+        const data = await response.json();
+        
+        console.log(data); // Affiche les données de l'API pour vérifier si elles sont récupérées correctement.
+
+        const race = data.MRData.RaceTable.Races[0];
+        const raceName = race.raceName;
+        const raceDate = race.date;
+        const circuitName = race.Circuit.circuitName;
+        const results = race.Results;
+
+        const raceInfo = document.getElementById('race-info');
+        raceInfo.innerHTML = `
+            <h2>Dernière course: ${raceName}</h2>
+            <p>Date: ${raceDate}</p>
+            <p>Lieu: ${circuitName}</p>
+            <h3>Résultats:</h3>
+            <ul>
+                ${results.map(result => `
+                    <li>${result.position} - ${result.Driver.familyName} (${result.Constructor.name})</li>
+                `).join('')}
+            </ul>
+        `;
+    } catch (error) {
+        console.error('Erreur lors de la récupération des données:', error); // Log l'erreur s'il y en a une
+    }
+}
 
     </script>
 </head>
