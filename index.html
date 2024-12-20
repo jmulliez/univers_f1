@@ -6,43 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - Formule 1</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-        // Fonction pour récupérer les dernières actualités F1
-        async function getF1News() {
-            const response = await fetch('https://ergast.com/api/f1/current/last/results.json'); // Exemple d'API de résultats
-            const data = await response.json();
-
-            // Récupération des données de la dernière course
-            const race = data.MRData.RaceTable.Races[0];
-            const raceName = race.raceName;
-            const raceDate = race.date;
-            const circuitName = race.Circuit.circuitName;
-            const results = race.Results;
-
-            // Création du contenu à afficher
-            const raceInfo = document.getElementById('race-info');
-            raceInfo.innerHTML = `
-                <h2>Dernière course: ${raceName}</h2>
-                <p>Date: ${raceDate}</p>
-                <p>Lieu: ${circuitName}</p>
-                <h3>Résultats:</h3>
-                <ul>
-                    ${results.map(result => `
-                        <li>${result.position} - ${result.Driver.familyName} (${result.Constructor.name})</li>
-                    `).join('')}
-                </ul>
-            `;
-        }
-
-        window.onload = getF1News;
-    </script>
 </head>
 
 <body>
     <header class="header-f1">
         <div class="header-content">
             <a href="index.html" class="logo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Formula_One_logo_2017.svg/1200px-Formula_One_logo_2017.svg.png" alt="logo F1" width="200">
+                <img src="images/f1_logo_sans_fond.png" alt="logo F1" width="200">
             </a>
             <h1>Bienvenue dans l'univers de la Formule 1</h1>
         </div>
@@ -67,39 +37,7 @@
     </nav>
 
     <main>
-        <section class="hero">
-            <img src="https://www.formula1.com/content/f1/xx-fr/_jcr_content/main/intro/intro_section/img/hero_image__f1_gear/hero-image-1600x900.jpg" alt="pilotes 2024" class="hero-image">
-            <div class="hero-content">
-                <h2>Bienvenue dans l'univers des courses les plus excitantes</h2>
-                <p>Suivez toute l'action de la Formule 1 : résultats, actualités, interviews, et plus encore.</p>
-                <a href="news.html" class="cta-button">Voir les dernières actualités</a>
-            </div>
-        </section>
-
-        <section class="intro">
-            <h2>Découvrez la Formule 1</h2>
-            <p>La Formule 1 est la catégorie reine du sport automobile, où les meilleurs pilotes du monde s'affrontent dans des courses palpitantes à travers le globe. Depuis ses débuts en 1950, la F1 a captivé des millions de fans avec sa vitesse, ses innovations technologiques et ses batailles intenses sur les circuits les plus prestigieux.</p>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/F1_2019_Team_Scuderia_Ferrari_F1_Logo.svg/1200px-F1_2019_Team_Scuderia_Ferrari_F1_Logo.svg.png" alt="Ferrari logo" class="intro-image">
-        </section>
-
-        <section class="latest-results">
-            <h2>Derniers résultats de la saison</h2>
-            <div id="race-info">
-                <!-- Les informations de la dernière course seront insérées ici -->
-            </div>
-        </section>
-
-        <section class="video-gallery">
-            <h2>Vidéos en direct et moments forts</h2>
-            <div class="videos">
-                <div class="video-item">
-                    <iframe src="https://www.youtube.com/embed/njmjIotgwH0" title="Vidéo F1 - Moment spectaculaire" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="video-item">
-                    <iframe src="https://www.youtube.com/embed/HzFvJh9k1Ls" title="Vidéo F1 - Interview pilote" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </div>
-        </section>
+        
     </main>
 
     <footer class="footer-f1">
@@ -130,10 +68,10 @@
         <div class="footer-bottom">
             <p>&copy; 2024 Site Formule 1. Tous droits réservés.</p>
             <div class="socials">
-                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Facebook_Logo_2023.png" alt="Facebook" width="30"></a>
-                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/X_Logo_2023.png" alt="X" width="30"></a>
-                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Instagram_Logo_2023.png" alt="Instagram" width="30"></a>
-                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Youtube_Logo_2023.png" alt="YouTube" width="30"></a>
+                <a href="#"><img src="images/facebook.png" alt="Facebook" width="30"></a>
+                <a href="#"><img src="images/X.png" alt="X" width="30"></a>
+                <a href="#"><img src="images/instagram.png" alt="Instagram" width="30"></a>
+                <a href="#"><img src="images/youtube.png" alt="YouTube" width="30"></a>
             </div>
         </div>
     </footer>
