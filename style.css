@@ -416,20 +416,22 @@ section {
     background-color: #0056b3;
 }
 
-/* Section Statistiques */
-.statistics-section {
-    background-color: #e7f3ff;
+/* Section Circuits */
+.circuits-section {
+    background-color: #fff8e1;
     padding: 40px 20px;
     text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.statistics-section h2 {
+.circuits-section h2 {
     font-size: 2.5em;
     color: #333;
     margin-bottom: 20px;
 }
 
-.statistics-section p {
+.circuits-section p {
     font-size: 1.2em;
     color: #555;
     line-height: 1.6;
