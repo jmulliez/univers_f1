@@ -388,7 +388,13 @@ section {
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Assure que le contenu est bien distribué */
+    height: 500px; /* Ajustez la hauteur en fonction de vos besoins */
+    width: 400px;
 }
+
 
 .section h3 {
     font-size: 1.8em;
@@ -400,6 +406,7 @@ section {
     font-size: 1em;
     color: #555;
     margin-bottom: 15px;
+    flex-grow: 1; /* Permet de prendre de la place et de pousser le bouton vers le bas */
 }
 
 .cta-button {
@@ -410,12 +417,13 @@ section {
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
-    margin-top: auto;
+    margin-top:30px;
 }
 
 .cta-button:hover {
-    background-color: #f44336;
+    background-color: #810000;
 }
+
 
 /* Section Circuits */
 .circuits-section {
@@ -424,6 +432,10 @@ section {
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Assure que le contenu se répartit */
+    height: 500px; /* Ajustez la hauteur selon vos besoins */
 }
 
 .circuits-section h2 {
@@ -437,6 +449,7 @@ section {
     color: #555;
     line-height: 1.6;
     margin-bottom: 20px;
+    flex-grow: 1; /* Permet au texte de prendre l'espace restant */
 }
 
 .circuits-section .cta-button {
@@ -447,11 +460,11 @@ section {
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
-    margin-top: auto;
+    margin-top: auto; /* Colle le bouton en bas de la section */
 }
 
 .circuits-section .cta-button:hover {
-    background-color: #f44336;
+    background-color: #0056b3;
 }
 
 /* Adaptation mobile */
