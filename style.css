@@ -326,7 +326,7 @@ h2 {
 
 #race-info h3 {
     font-size: 1.5rem;
-    color: #007bff;
+    color: #f44336;
     margin-bottom: 1rem;
 }
 
@@ -392,7 +392,7 @@ section {
 
 .section h3 {
     font-size: 1.8em;
-    color: #007bff;
+    color: #f44336;
     margin-bottom: 10px;
 }
 
@@ -403,7 +403,7 @@ section {
 }
 
 .cta-button {
-    background-color: #007bff;
+    background-color: #f44336;
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
@@ -413,12 +413,12 @@ section {
 }
 
 .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #f44336;
 }
 
 /* Section Circuits */
 .circuits-section {
-    background-color: #fff8e1;
+    background-color: #ffffff;
     padding: 40px 20px;
     text-align: center;
     border-radius: 8px;
@@ -439,7 +439,7 @@ section {
 }
 
 .circuits-section .cta-button {
-    background-color: #007bff;
+    background-color: #f44336;
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
@@ -449,7 +449,7 @@ section {
 }
 
 .circuits-section .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #f44336;
 }
 
 /* Adaptation mobile */
