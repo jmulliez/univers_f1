@@ -34,7 +34,6 @@
             `;
         }
 
-        // Appeler la fonction lors du chargement de la page
         window.onload = getF1News;
     </script>
 </head>
@@ -42,7 +41,9 @@
 <body>
     <header class="header-f1">
         <div class="header-content">
-            <a href="index.html" class="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Formula_One_logo.svg/800px-Formula_One_logo.svg.png" alt="logo_f1" width="150"></a>
+            <a href="index.html" class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Formula_One_logo_2017.svg/1200px-Formula_One_logo_2017.svg.png" alt="logo F1" width="200">
+            </a>
             <h1>Bienvenue dans l'univers de la Formule 1</h1>
         </div>
     </header>
@@ -67,29 +68,35 @@
 
     <main>
         <section class="hero">
-            <img src="https://www.formula1.com/.image/t_share/MTY4MTAzNjMwMTI0NTkxNjg1/2024-pirelli-formula-1-tyres.jpg" alt="pilotes 2024" class="hero-image" width="100%">
+            <img src="https://www.formula1.com/content/f1/xx-fr/_jcr_content/main/intro/intro_section/img/hero_image__f1_gear/hero-image-1600x900.jpg" alt="pilotes 2024" class="hero-image">
             <div class="hero-content">
-                <h2>Dernières actualités</h2>
-                <p>Découvrez les dernières nouvelles et résultats de la Formule 1</p>
-                <a href="news.html" class="cta-button">Voir toutes les actualités</a>
+                <h2>Bienvenue dans l'univers des courses les plus excitantes</h2>
+                <p>Suivez toute l'action de la Formule 1 : résultats, actualités, interviews, et plus encore.</p>
+                <a href="news.html" class="cta-button">Voir les dernières actualités</a>
             </div>
         </section>
 
-        <section class="info">
-            <h2>Derniers résultats</h2>
+        <section class="intro">
+            <h2>Découvrez la Formule 1</h2>
+            <p>La Formule 1 est la catégorie reine du sport automobile, où les meilleurs pilotes du monde s'affrontent dans des courses palpitantes à travers le globe. Depuis ses débuts en 1950, la F1 a captivé des millions de fans avec sa vitesse, ses innovations technologiques et ses batailles intenses sur les circuits les plus prestigieux.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/F1_2019_Team_Scuderia_Ferrari_F1_Logo.svg/1200px-F1_2019_Team_Scuderia_Ferrari_F1_Logo.svg.png" alt="Ferrari logo" class="intro-image">
+        </section>
+
+        <section class="latest-results">
+            <h2>Derniers résultats de la saison</h2>
             <div id="race-info">
                 <!-- Les informations de la dernière course seront insérées ici -->
             </div>
         </section>
 
-        <section>
-            <h2>Vidéos en direct et plus</h2>
-            <div class="video-gallery">
+        <section class="video-gallery">
+            <h2>Vidéos en direct et moments forts</h2>
+            <div class="videos">
                 <div class="video-item">
-                    <iframe src="https://www.youtube.com/embed/abc123" title="Vidéo F1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/njmjIotgwH0" title="Vidéo F1 - Moment spectaculaire" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="video-item">
-                    <iframe src="https://www.youtube.com/embed/xyz456" title="Vidéo F1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/HzFvJh9k1Ls" title="Vidéo F1 - Interview pilote" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
@@ -99,12 +106,10 @@
         <div class="footer-content">
             <div class="footer-section about">
                 <h3>À propos</h3>
-                <p>
-                    Bienvenue sur notre site dédié à l'univers passionnant de la Formule 1. Découvrez les dernières actualités, les écuries, pilotes, calendriers et bien plus encore.
-                </p>
+                <p>Bienvenue sur notre site dédié à l'univers de la Formule 1. Découvrez les dernières actualités, les équipes, les pilotes, et bien plus encore !</p>
             </div>
             <div class="footer-section links">
-                <h3>Liens rapides</h3>
+                <h3>Liens utiles</h3>
                 <ul>
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="teams.html">Équipes</a></li>
@@ -116,7 +121,7 @@
             <div class="footer-section contact">
                 <h3>Contactez-nous</h3>
                 <ul>
-                    <li>Email : <a href="mailto:contact@formule1site.com">mulliezjoseph5@gmail.com</a></li>
+                    <li>Email : <a href="mailto:contact@formule1site.com">contact@formule1site.com</a></li>
                     <li>Téléphone : +33 6 95 12 09 81</li>
                     <li>Adresse : Le Mouden, Lanmérin 22300</li>
                 </ul>
@@ -124,12 +129,11 @@
         </div>
         <div class="footer-bottom">
             <p>&copy; 2024 Site Formule 1. Tous droits réservés.</p>
-            <p>Conçu par les passionnés de Formule 1 pour les passionnés.</p>
             <div class="socials">
-                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" alt="Facebook" width="30"></a>
-                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/60/X_logo_2023.svg" alt="X" width="30"></a>
-                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram" width="30"></a>
-                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Youtube_logo_2015.png" alt="YouTube" width="30"></a>
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Facebook_Logo_2023.png" alt="Facebook" width="30"></a>
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/X_Logo_2023.png" alt="X" width="30"></a>
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Instagram_Logo_2023.png" alt="Instagram" width="30"></a>
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Youtube_Logo_2023.png" alt="YouTube" width="30"></a>
             </div>
         </div>
     </footer>
