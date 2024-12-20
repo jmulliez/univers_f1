@@ -438,6 +438,32 @@ section {
     margin-bottom: 20px;
 }
 
+.circuits-section .cta-button {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.circuits-section .cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Adaptation mobile */
+@media (max-width: 768px) {
+    .circuits-section h2 {
+        font-size: 2em;
+    }
+
+    .circuits-section p {
+        font-size: 1.1em;
+    }
+}
+
+
 /* Galerie */
 .gallery-section {
     background-color: #ffffff;
