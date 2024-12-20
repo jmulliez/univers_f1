@@ -410,6 +410,7 @@ section {
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
+    margin-top: auto;
 }
 
 .cta-button:hover {
@@ -446,6 +447,7 @@ section {
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s;
+    margin-top: auto;
 }
 
 .circuits-section .cta-button:hover {
