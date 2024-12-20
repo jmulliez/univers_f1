@@ -302,4 +302,46 @@ main {
     margin-top: auto; /* Garantit que le footer reste en bas */
 }
 
+.info {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+#race-info {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#race-info h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+#race-info ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#race-info ul li {
+    font-size: 1.2rem;
+    color: #555;
+    padding: 0.5rem 0;
+}
+
+#race-info ul li:nth-child(even) {
+    background-color: #f9f9f9;
+}
 
