@@ -406,7 +406,6 @@ section {
     font-size: 1em;
     color: #555;
     margin-bottom: 15px;
-    flex-grow: 1; /* Permet de prendre de la place et de pousser le bouton vers le bas */
 }
 
 .cta-button {
