@@ -302,13 +302,7 @@ main {
     margin-top: auto; /* Garantit que le footer reste en bas */
 }
 
-.info {
-    padding: 2rem;
-    background-color: #f4f4f4;
-    margin: 2rem 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
+
 
 h2 {
     font-size: 1.8rem;
@@ -391,7 +385,6 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Assure que le contenu est bien distribué */
-    height: 500px; /* Ajustez la hauteur en fonction de vos besoins */
     width: 400px;
 }
 
@@ -541,4 +534,26 @@ section {
     .shop-section h2 {
         font-size: 2em;
     }
+}
+.info {
+    display: flex;
+    flex-direction: column; /* Empile les items verticalement */
+    gap: 10px; /* Espacement entre les items */
+    align-items: flex-start; /* Aligne les items à gauche */
+    padding: 2rem;
+    background-color: #f4f4f4;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-item {
+    display: flex;
+    align-items: center; /* Aligne l'image et le texte verticalement */
+    gap: 10px; /* Espacement entre l'image et le texte */
+}
+
+.info-item img {
+    display: block;
+    margin-bottom:1.5em;
 }
